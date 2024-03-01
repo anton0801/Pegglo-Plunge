@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+protocol Scorable {
+    var score: Int { get set }
+}
+
+struct ScoreGame: Scorable {
+    var score: Int
+}

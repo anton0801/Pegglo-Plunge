@@ -10,6 +10,12 @@ import SpriteKit
 
 struct PeggloGameView: View {
     
+    @Environment(\.presentationMode) var presMode
+    
+    @EnvironmentObject var gameData: GameData
+    
+    @State var gameIdScoreAdded: String? = nil
+    
     var scene: SKScene {
         let scene = GameScene()
         scene.size = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
@@ -19,8 +25,22 @@ struct PeggloGameView: View {
     
     var body: some View {
         SpriteView(scene: scene)
-            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            .edgesIgnoringSafeArea(.all)
+            .onReceive(NotificationCenter.default.publisher(for: Notification.Name("CLOSE_GAME"))) { _ in
+                presMode.wrappedValue.dismiss()
+            }
+            .onReceive(NotificationCenter.default.publisher(for: Notification.Name("WIN_ADD_POINTS"))) { notification in
+                if let data = notification.userInfo?["data"] as? Int {
+                    if let gameId = notification.userInfo?["gameId"] as? String {
+                        if gameId != gameIdScoreAdded {
+                            gameData.addScore(data)
+                            self.gameIdScoreAdded = gameId
+                        }
+                    }
+                }
+            }
     }
+    
 }
 
 #Preview {

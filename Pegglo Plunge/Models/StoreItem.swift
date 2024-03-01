@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+
+struct StoreItem {
+    var name: String
+    var src: String
+    var type: StoreItemType
+    var price: Int
+    var id: String = UUID().uuidString
+}
+
+enum StoreItemType {
+    case wallpaper
+    case ball
+}

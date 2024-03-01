@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+enum Constants {
+    static let ball = "ball"
+    static let obstacle = "obstacle"
+    static let goodSlot = "goodSlot"
+    static let badSlot = "badSlot"
+}

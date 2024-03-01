@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+enum AudioNames: String {
+    case back = "back_music"
+    case addScore = "addScore"
+    case fire = "fire"
+    case put = "put_object"
+    case win = "win_sound"
+    case lose = "lose_sound"
+}

@@ -11,6 +11,26 @@
 		EEE5CB462B8F604500FE82DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB452B8F604500FE82DC /* ContentView.swift */; };
 		EEE5CB482B8F604700FE82DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB472B8F604700FE82DC /* Assets.xcassets */; };
 		EEE5CB4B2B8F604700FE82DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB4A2B8F604700FE82DC /* Preview Assets.xcassets */; };
+		EEE5CB532B8F7C2600FE82DC /* PeggloGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB522B8F7C2600FE82DC /* PeggloGameView.swift */; };
+		EEE5CB552B8F7DFD00FE82DC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB542B8F7DFD00FE82DC /* GameScene.swift */; };
+		EEE5CB582B8F7FD300FE82DC /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB572B8F7FD300FE82DC /* GameViewModel.swift */; };
+		EEE5CB5A2B8F807700FE82DC /* GameDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB592B8F807700FE82DC /* GameDataOptions.swift */; };
+		EEE5CB5C2B8F845400FE82DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB5B2B8F845400FE82DC /* Constants.swift */; };
+		EEE5CB5F2B8F9C9800FE82DC /* ScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB5E2B8F9C9800FE82DC /* ScoreGame.swift */; };
+		EEE5CB612B8FA4B200FE82DC /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB602B8FA4B200FE82DC /* Fire.sks */; };
+		EEE5CB632B8FAADB00FE82DC /* AudioNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB622B8FAADB00FE82DC /* AudioNames.swift */; };
+		EEE5CB662B8FAB4C00FE82DC /* addScore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB652B8FAB4C00FE82DC /* addScore.mp3 */; };
+		EEE5CB682B8FAB8600FE82DC /* fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB672B8FAB8600FE82DC /* fire.wav */; };
+		EEE5CB6A2B8FAC4700FE82DC /* back_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB692B8FAC4700FE82DC /* back_music.mp3 */; };
+		EEE5CB6C2B8FAD4600FE82DC /* put_object.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB6B2B8FAD4600FE82DC /* put_object.mp3 */; };
+		EEE5CB6E2B8FAE1B00FE82DC /* win_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB6D2B8FAE1B00FE82DC /* win_sound.wav */; };
+		EEE5CB702B8FAE4F00FE82DC /* lose_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE5CB6F2B8FAE4F00FE82DC /* lose_sound.wav */; };
+		EEE5CB762B8FC3FE00FE82DC /* BallsAndWallpapersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB752B8FC3FE00FE82DC /* BallsAndWallpapersStore.swift */; };
+		EEE5CB792B8FC41300FE82DC /* LoadingGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB782B8FC41300FE82DC /* LoadingGameView.swift */; };
+		EEE5CB7D2B8FC44400FE82DC /* PrivacyPolicyGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB7C2B8FC44400FE82DC /* PrivacyPolicyGameView.swift */; };
+		EEE5CB7F2B8FE17200FE82DC /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB7E2B8FE17200FE82DC /* StoreItem.swift */; };
+		EEE5CB812B8FE1CD00FE82DC /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB802B8FE1CD00FE82DC /* StoreData.swift */; };
+		EEE5CB832B8FE44F00FE82DC /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5CB822B8FE44F00FE82DC /* GameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +39,26 @@
 		EEE5CB452B8F604500FE82DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEE5CB472B8F604700FE82DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE5CB4A2B8F604700FE82DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEE5CB522B8F7C2600FE82DC /* PeggloGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeggloGameView.swift; sourceTree = "<group>"; };
+		EEE5CB542B8F7DFD00FE82DC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EEE5CB572B8F7FD300FE82DC /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		EEE5CB592B8F807700FE82DC /* GameDataOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataOptions.swift; sourceTree = "<group>"; };
+		EEE5CB5B2B8F845400FE82DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EEE5CB5E2B8F9C9800FE82DC /* ScoreGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGame.swift; sourceTree = "<group>"; };
+		EEE5CB602B8FA4B200FE82DC /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		EEE5CB622B8FAADB00FE82DC /* AudioNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioNames.swift; sourceTree = "<group>"; };
+		EEE5CB652B8FAB4C00FE82DC /* addScore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = addScore.mp3; sourceTree = "<group>"; };
+		EEE5CB672B8FAB8600FE82DC /* fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fire.wav; sourceTree = "<group>"; };
+		EEE5CB692B8FAC4700FE82DC /* back_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back_music.mp3; sourceTree = "<group>"; };
+		EEE5CB6B2B8FAD4600FE82DC /* put_object.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = put_object.mp3; sourceTree = "<group>"; };
+		EEE5CB6D2B8FAE1B00FE82DC /* win_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win_sound.wav; sourceTree = "<group>"; };
+		EEE5CB6F2B8FAE4F00FE82DC /* lose_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose_sound.wav; sourceTree = "<group>"; };
+		EEE5CB752B8FC3FE00FE82DC /* BallsAndWallpapersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsAndWallpapersStore.swift; sourceTree = "<group>"; };
+		EEE5CB782B8FC41300FE82DC /* LoadingGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingGameView.swift; sourceTree = "<group>"; };
+		EEE5CB7C2B8FC44400FE82DC /* PrivacyPolicyGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyGameView.swift; sourceTree = "<group>"; };
+		EEE5CB7E2B8FE17200FE82DC /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		EEE5CB802B8FE1CD00FE82DC /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
+		EEE5CB822B8FE44F00FE82DC /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +91,18 @@
 		EEE5CB422B8F604500FE82DC /* Pegglo Plunge */ = {
 			isa = PBXGroup;
 			children = (
+				EEE5CB642B8FAB4000FE82DC /* Sounds */,
+				EEE5CB5D2B8F9C8F00FE82DC /* Models */,
+				EEE5CB562B8F7FC700FE82DC /* ViewModel */,
+				EEE5CB512B8F7C1300FE82DC /* View */,
 				EEE5CB432B8F604500FE82DC /* Pegglo_PlungeApp.swift */,
-				EEE5CB452B8F604500FE82DC /* ContentView.swift */,
 				EEE5CB472B8F604700FE82DC /* Assets.xcassets */,
 				EEE5CB492B8F604700FE82DC /* Preview Content */,
+				EEE5CB592B8F807700FE82DC /* GameDataOptions.swift */,
+				EEE5CB5B2B8F845400FE82DC /* Constants.swift */,
+				EEE5CB602B8FA4B200FE82DC /* Fire.sks */,
+				EEE5CB622B8FAADB00FE82DC /* AudioNames.swift */,
+				EEE5CB822B8FE44F00FE82DC /* GameData.swift */,
 			);
 			path = "Pegglo Plunge";
 			sourceTree = "<group>";
@@ -65,6 +113,90 @@
 				EEE5CB4A2B8F604700FE82DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEE5CB512B8F7C1300FE82DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB7B2B8FC43300FE82DC /* PrivacyPolicyGame */,
+				EEE5CB742B8FC3EA00FE82DC /* BallsAndWallpapersStore */,
+				EEE5CB732B8FC3DE00FE82DC /* LoadingGame */,
+				EEE5CB722B8FC3D300FE82DC /* Menu */,
+				EEE5CB712B8FC3C700FE82DC /* Game */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEE5CB562B8F7FC700FE82DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB572B8F7FD300FE82DC /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEE5CB5D2B8F9C8F00FE82DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB5E2B8F9C9800FE82DC /* ScoreGame.swift */,
+				EEE5CB7E2B8FE17200FE82DC /* StoreItem.swift */,
+				EEE5CB802B8FE1CD00FE82DC /* StoreData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EEE5CB642B8FAB4000FE82DC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB6F2B8FAE4F00FE82DC /* lose_sound.wav */,
+				EEE5CB6D2B8FAE1B00FE82DC /* win_sound.wav */,
+				EEE5CB6B2B8FAD4600FE82DC /* put_object.mp3 */,
+				EEE5CB672B8FAB8600FE82DC /* fire.wav */,
+				EEE5CB692B8FAC4700FE82DC /* back_music.mp3 */,
+				EEE5CB652B8FAB4C00FE82DC /* addScore.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EEE5CB712B8FC3C700FE82DC /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB522B8F7C2600FE82DC /* PeggloGameView.swift */,
+				EEE5CB542B8F7DFD00FE82DC /* GameScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EEE5CB722B8FC3D300FE82DC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB452B8F604500FE82DC /* ContentView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EEE5CB732B8FC3DE00FE82DC /* LoadingGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB782B8FC41300FE82DC /* LoadingGameView.swift */,
+			);
+			path = LoadingGame;
+			sourceTree = "<group>";
+		};
+		EEE5CB742B8FC3EA00FE82DC /* BallsAndWallpapersStore */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB752B8FC3FE00FE82DC /* BallsAndWallpapersStore.swift */,
+			);
+			path = BallsAndWallpapersStore;
+			sourceTree = "<group>";
+		};
+		EEE5CB7B2B8FC43300FE82DC /* PrivacyPolicyGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5CB7C2B8FC44400FE82DC /* PrivacyPolicyGameView.swift */,
+			);
+			path = PrivacyPolicyGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +257,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE5CB612B8FA4B200FE82DC /* Fire.sks in Resources */,
 				EEE5CB4B2B8F604700FE82DC /* Preview Assets.xcassets in Resources */,
+				EEE5CB682B8FAB8600FE82DC /* fire.wav in Resources */,
+				EEE5CB6E2B8FAE1B00FE82DC /* win_sound.wav in Resources */,
 				EEE5CB482B8F604700FE82DC /* Assets.xcassets in Resources */,
+				EEE5CB662B8FAB4C00FE82DC /* addScore.mp3 in Resources */,
+				EEE5CB6C2B8FAD4600FE82DC /* put_object.mp3 in Resources */,
+				EEE5CB702B8FAE4F00FE82DC /* lose_sound.wav in Resources */,
+				EEE5CB6A2B8FAC4700FE82DC /* back_music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +276,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE5CB5F2B8F9C9800FE82DC /* ScoreGame.swift in Sources */,
+				EEE5CB832B8FE44F00FE82DC /* GameData.swift in Sources */,
+				EEE5CB7D2B8FC44400FE82DC /* PrivacyPolicyGameView.swift in Sources */,
+				EEE5CB532B8F7C2600FE82DC /* PeggloGameView.swift in Sources */,
 				EEE5CB462B8F604500FE82DC /* ContentView.swift in Sources */,
+				EEE5CB632B8FAADB00FE82DC /* AudioNames.swift in Sources */,
+				EEE5CB5A2B8F807700FE82DC /* GameDataOptions.swift in Sources */,
+				EEE5CB552B8F7DFD00FE82DC /* GameScene.swift in Sources */,
+				EEE5CB5C2B8F845400FE82DC /* Constants.swift in Sources */,
+				EEE5CB7F2B8FE17200FE82DC /* StoreItem.swift in Sources */,
+				EEE5CB762B8FC3FE00FE82DC /* BallsAndWallpapersStore.swift in Sources */,
+				EEE5CB582B8F7FD300FE82DC /* GameViewModel.swift in Sources */,
 				EEE5CB442B8F604500FE82DC /* Pegglo_PlungeApp.swift in Sources */,
+				EEE5CB792B8FC41300FE82DC /* LoadingGameView.swift in Sources */,
+				EEE5CB812B8FE1CD00FE82DC /* StoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +424,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pegglo Plunge/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,6 +432,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,6 +440,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.peggloplungeMy.Pegglo-Plunge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pegglo Plunge/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,6 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +473,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.peggloplungeMy.Pegglo-Plunge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
